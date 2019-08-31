@@ -19,8 +19,18 @@
   },
   "homepage": "https://github.com/espain16/Budget-Managed#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
     "express": "^4.17.1",
-    "knex": "^0.19.3"
+    "helmet": "^3.20.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.19.3",
+    "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
   }
 }
