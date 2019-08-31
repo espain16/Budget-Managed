@@ -1,0 +1,26 @@
+{
+  "name": "budget-managed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --watch",
+    "server": " nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/espain16/Budget-Managed.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/espain16/Budget-Managed/issues"
+  },
+  "homepage": "https://github.com/espain16/Budget-Managed#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.19.3"
+  }
+}
