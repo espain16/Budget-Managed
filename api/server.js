@@ -9,7 +9,7 @@ const server =express();
 
 //Declare middleware
 server.use(helmet())
-server.use(cors())
 server.use(express.json())
+server.use(cors())
 
 module.exports = server;
